@@ -14,13 +14,12 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
+              <h3 className="text-xl font-bold mb-2"> HomyHub - House Renting System</h3>
               <p className="text-gray-400 mb-4">
-                Scalable cloud infrastructure management with real-time
-                monitoring and automated scaling.
+                HomyHub is a full-featured house renting and selling web application where users can explore properties, filter and sort listings, contact owners, and manage their own listings. Whether you’re looking to rent, buy, or list your own property, HomyHub makes real estate interaction smooth and user-friendly.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["React.js", "Node.js", "MongoDB", "Express.js"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -34,7 +33,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://homyhub-rrpw.onrender.com/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -49,13 +48,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">AI Analytics Dashboard</h3>
+              <h3 className="text-xl font-bold mb-2">VoyaAI - Travel Planning App Powered By AI</h3>
               <p className="text-gray-400 mb-4">
-                ML-powered data visualization platform with predictive analytics
-                and interactive reports.
+                VoyaAI is an intelligent travel assistant that helps you create the perfect itinerary for your dream destination. Just enter a few details, and within seconds, get a customized travel plan tailored to your preferences!
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["React.js", "Tailwind CSS", "Firebase", "Gemini API", "Unsplash and Pexels API"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -72,7 +70,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://ai-travel-planner-gilt.vercel.app/" target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -88,7 +86,7 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">Connectify</h3>
               <p className="text-gray-400 mb-4">
                 Full-stack e-commerce with modern UI, secure payment
                 integration, and customizable product inventory.
@@ -113,7 +111,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://linked-in-rouge.vercel.app/" target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -152,7 +150,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <a
-                  href="#"
+                  href="#" target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →

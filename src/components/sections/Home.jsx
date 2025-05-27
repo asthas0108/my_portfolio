@@ -1,4 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 
 export const Home = () => {
   return (
@@ -33,6 +35,82 @@ export const Home = () => {
               Contact Me
             </a>
           </div>
+
+
+          <div className="flex flex-wrap justify-center gap-4 mt-6">
+    {/* GitHub */}
+    <a
+      href="https://github.com/your-username"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-100 hover:bg-blue-200 transition"
+    >
+      <FaGithub className="w-12 h-12 text-2xl rounded-full text-blue-600 hover:text-blue-800" />
+    </a>
+
+    {/* LinkedIn */}
+    <a
+      href="https://linkedin.com/in/your-profile"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-100 hover:bg-blue-200 transition"
+    >
+      <img
+        src="/link.png"
+        alt="Codeforces"
+        className="w-12 h-12 rounded-full object-contain"
+      />
+      {/* <FaLinkedin className="w-12 h-12 text-2xl text-blue-600 hover:text-blue-800" /> */}
+    </a>
+
+    {/* LeetCode */}
+    <a
+      href="https://leetcode.com/your-username"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-yellow-100 hover:bg-yellow-200 transition"
+    >
+      <SiLeetcode className="text-2xl text-yellow-500 hover:text-yellow-600" />
+    </a>
+
+    {/* GeeksforGeeks */}
+    <a
+      href="https://auth.geeksforgeeks.org/user/your-username"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-green-100 hover:bg-green-200 transition"
+    >
+      <SiGeeksforgeeks className="text-2xl text-green-600 hover:text-green-800" />
+    </a>
+
+    {/* Codeforces */}
+    <a
+      href="https://codeforces.com/profile/your-username"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 transition"
+    >
+      <img
+        src="/codeforces.png"
+        alt="Codeforces"
+        className="w-6 h-6 object-contain"
+      />
+    </a>
+
+    {/* CodeChef */}
+    <a
+      href="https://www.codechef.com/users/your-username"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-purple-100 hover:bg-purple-200 transition"
+    >
+      <img
+        src="/codechef.jpg"
+        alt="CodeChef"
+        className="w-12 h-12 object-contain rounded-full"
+      />
+    </a>
+  </div>
         </div>
       </RevealOnScroll>
     </section>
