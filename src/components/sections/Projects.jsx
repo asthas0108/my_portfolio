@@ -38,6 +38,13 @@ export const Projects = () => {
                 >
                   View Project →
                 </a>
+
+                <a
+                  href="https://github.com/asthas0108/House_Renting_System"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  GitHub Link →
+                </a>
               </div>
             </div>
             <div
@@ -75,6 +82,13 @@ export const Projects = () => {
                 >
                   View Project →
                 </a>
+
+                <a
+                  href="https://github.com/asthas0108/AITravelPlanner"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  GitHub Link →
+                </a>
               </div>
             </div>
 
@@ -88,11 +102,10 @@ export const Projects = () => {
             >
               <h3 className="text-xl font-bold mb-2">Connectify</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+                Connectify is a professional networking platform inspired by LinkedIn. It allows users to connect with each other, manage profiles, post updates, and download resumes. Built with modern web technologies, Connectify provides a clean and user-friendly interface to interact with professional connections.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["Next.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB"].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -115,6 +128,13 @@ export const Projects = () => {
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
+                </a>
+
+                <a
+                  href="https://github.com/asthas0108/LinkedIn"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  GitHub Link →
                 </a>
               </div>
             </div>
@@ -154,6 +174,13 @@ export const Projects = () => {
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
+                </a>
+
+                <a
+                  href="https://homyhub-rrpw.onrender.com/"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                >
+                  GitHub Link →
                 </a>
               </div>
             </div>

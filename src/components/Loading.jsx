@@ -4,7 +4,8 @@ import { useState } from "react"
 export const Loading = ({onComplete}) => {
 
     const [text, setText] = useState("");
-    const fullText = "<Astha Singh>";
+    // const fullText = "<Astha Singh>";
+    const fullText = "npm install portfolio..."
 
     useEffect(() => {
         let index = 0;

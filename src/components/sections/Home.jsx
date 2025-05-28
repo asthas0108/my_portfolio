@@ -40,66 +40,66 @@ export const Home = () => {
           <div className="flex flex-wrap justify-center gap-4 mt-6">
     {/* GitHub */}
     <a
-      href="https://github.com/your-username"
+      href="https://github.com/asthas0108"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-100 hover:bg-blue-200 transition"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-white"
     >
-      <FaGithub className="w-12 h-12 text-2xl rounded-full text-blue-600 hover:text-blue-800" />
+      <FaGithub className="w-8 h-8 text-2xl rounded-full text-black hover:text-black-800" />
     </a>
 
     {/* LinkedIn */}
     <a
-      href="https://linkedin.com/in/your-profile"
+      href="https://www.linkedin.com/in/astha-singh-001877294/"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-100 hover:bg-blue-200 transition"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-white"
     >
       <img
         src="/link.png"
         alt="Codeforces"
-        className="w-12 h-12 rounded-full object-contain"
+        className="w-8 h-8 rounded-full object-contain"
       />
       {/* <FaLinkedin className="w-12 h-12 text-2xl text-blue-600 hover:text-blue-800" /> */}
     </a>
 
     {/* LeetCode */}
     <a
-      href="https://leetcode.com/your-username"
+      href="https://leetcode.com/u/AsthaSingh0108/"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-12 h-12 flex items-center justify-center rounded-full bg-yellow-100 hover:bg-yellow-200 transition"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-white"
     >
-      <SiLeetcode className="text-2xl text-yellow-500 hover:text-yellow-600" />
+      <SiLeetcode className="w-7 h-7 text-2xl text-yellow-500 hover:text-yellow-600" />
     </a>
 
     {/* GeeksforGeeks */}
     <a
-      href="https://auth.geeksforgeeks.org/user/your-username"
+      href="https://www.geeksforgeeks.org/user/astha3oyk/"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-12 h-12 flex items-center justify-center rounded-full bg-green-100 hover:bg-green-200 transition"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-white"
     >
-      <SiGeeksforgeeks className="text-2xl text-green-600 hover:text-green-800" />
+      <SiGeeksforgeeks className="w-8 h-8 text-2xl text-green-600 hover:text-green-800" />
     </a>
 
     {/* Codeforces */}
     <a
-      href="https://codeforces.com/profile/your-username"
+      href="https://codeforces.com/profile/Astha_Singh0108"
       target="_blank"
       rel="noopener noreferrer"
-      className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 transition"
+      className="w-12 h-12 flex items-center justify-center rounded-full bg-white"
     >
       <img
         src="/codeforces.png"
         alt="Codeforces"
-        className="w-6 h-6 object-contain"
+        className="w-7 h-7 object-contain"
       />
     </a>
 
     {/* CodeChef */}
     <a
-      href="https://www.codechef.com/users/your-username"
+      href="https://www.codechef.com/users/swarm_glim_12"
       target="_blank"
       rel="noopener noreferrer"
       className="w-12 h-12 flex items-center justify-center rounded-full bg-purple-100 hover:bg-purple-200 transition"

@@ -2,14 +2,15 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Next.js",
+    "Redux Toolkit"
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Express.js", "Mongoose", "MongoDB"];
 
   return (
     <section
@@ -64,21 +65,20 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="grid grid-cols-1 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.Tech in Computer Science and Engineering </strong> - MMMUT Gorakhpur
+                  (2023 - Present)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Current CGPA: 8.78
                 </li>
               </ul>
             </div>
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            {/* <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
@@ -103,7 +103,7 @@ export const About = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </RevealOnScroll>
