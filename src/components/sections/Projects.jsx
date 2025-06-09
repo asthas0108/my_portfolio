@@ -147,13 +147,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+              <h3 className="text-xl font-bold mb-2">ElevateU - An e-learning Platform</h3>
               <p className="text-gray-400 mb-4">
-                Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
+                ElevateU is a full-stack e-learning web application that serves as a platform for users to explore and enroll in educational courses. The platform supports course management providing a seamless interface for online learning and transactions.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                {["JWT", "MongoDB", "Razorpay API", "Nodemailer", "", "Express.js", "React.js", "Node.js"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -170,14 +169,14 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <a
-                  href="#" target="_blank"
+                  href="https://e-learn-eosin.vercel.app/" target="_blank"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
 
                 <a
-                  href="https://homyhub-rrpw.onrender.com/"
+                  href="https://github.com/asthas0108/E-Learn-"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   GitHub Link →
